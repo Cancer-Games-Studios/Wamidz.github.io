@@ -1,0 +1,140 @@
+/* ===== BASE STYLES ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+  
+  /* ===== TABLE STRUCTURE ===== */
+  table {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  thead {
+    background: linear-gradient(135deg, #3498db, #2c3e50);
+    color: white;
+  }
+  
+  th {
+    padding: 16px 12px;
+    text-align: left;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+  
+  th:first-child {
+    width: 80px;
+    text-align: center;
+  }
+  
+  tbody tr {
+    transition: all 0.2s ease;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f8fafc;
+  }
+  
+  tbody tr:hover {
+    background-color: #f1f8fe;
+  }
+  
+  td {
+    padding: 14px 12px;
+    border-bottom: 1px solid #eaeaea;
+    vertical-align: middle;
+  }
+  
+  /* ===== PROFILE IMAGES ===== */
+  .profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 auto;
+    background-color: #ecf0f1;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  
+  .profile-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-color: #3498db;
+  }
+  
+  /* ===== RESPONSIVE ADJUSTMENTS ===== */
+  @media (max-width: 768px) {
+    th, td {
+      padding: 12px 8px;
+    }
+    
+    .profile-img {
+      width: 50px;
+      height: 50px;
+    }
+    
+    th:first-child {
+      width: 70px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    body {
+      padding: 10px;
+    }
+    
+    table {
+      font-size: 14px;
+    }
+    
+    .profile-img {
+      width: 40px;
+      height: 40px;
+    }
+    
+    th:first-child {
+      width: 60px;
+    }
+  }
+  
+  /* ===== ERROR STATES ===== */
+  img[src="images/default.png"] {
+    filter: grayscale(100%);
+    opacity: 0.8;
+  }
+  
+  /* ===== ANIMATIONS ===== */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  tbody tr {
+    animation: fadeIn 0.4s ease forwards;
+  }
+  
+  tbody tr:nth-child(1) { animation-delay: 0.1s; }
+  tbody tr:nth-child(2) { animation-delay: 0.2s; }
+  tbody tr:nth-child(3) { animation-delay: 0.3s; }
+  /* Continue pattern for more rows if needed */

@@ -1,0 +1,66 @@
+[
+    {
+       "namn": "Maria",
+       "etternamn": "Olsen",
+       "alder": 17,
+       "klasse": "1IM",
+       "email": "mariaolsen@iskule.no",
+       "image": "img1.png"
+    },
+    {
+        "namn": "Jonas",
+        "etternamn": "Brady",
+        "alder": 16,
+        "klasse": "1IM",
+        "email": "jonasbrady@iskule.no",
+        "image": "img1.png"
+    },
+    {
+        "namn": "Aisha",
+        "etternamn": "Vaage",
+        "alder": 16,
+        "klasse": "1IM",
+        "email": "aishavaage@iskule.no",
+        "image": "img1.png"
+     },
+     {
+        "namn": "Martin",
+        "etternamn": "Olsen",
+        "alder": 13,
+        "klasse": "1IM",
+        "email": "martinolsen@iskule.no",
+        "image": "img1.png"
+    },
+    {
+        "namn": "Martin",
+        "etternamn": "Brady",
+        "alder": 17,
+        "klasse": "1IM",
+        "email": "martinbrady@iskule.no",
+        "image": "img1.png"
+    },
+    {
+        "namn": "Lennert",
+        "etternamn": "Loosch",
+        "alder": 17,
+        "klasse": "1IM",
+        "email": "lennertloosch@iskule.no",
+        "image": "img1.png"
+    },
+    {
+        "namn": "Emil",
+        "etternamn": "Martinsin",
+        "alder": 16,
+        "klasse": "1IM",
+        "email": "EmilMartinsin@iskule.no",
+        "image": "img1.png"
+    },
+    {
+        "namn": "Tormod",
+        "etternamn": "Økland",
+        "alder": 16,
+        "klasse": "1IM",
+        "email": "tormodøkland@iskule.no",
+        "image": "img1.png"
+    }
+]
